@@ -25,7 +25,7 @@ int main(int argc, const char * argv[])
     objFraction1.denominador = 3;
     
     // chamando o metodo e passando o parametro
-    //para chamar precisa usar a sintaxe [ metodo ]
+    //para chamar precisa usar a sintaxe [ metodo ]    
     [objFraction2 inserirNumerado:6 inserirDenominador:8];
     
     [objFraction1 print];
