@@ -1,0 +1,17 @@
+Nesse projeto existe vários exemplos de estruturas do Objective. Por isso criei e dividi em mais de uma classe.
+Quando for utilizar um determinado MAIN, favor alterar o nome do main para MAIN. Sendo assim, ele será a primeira classe a ser executada quando o projeto for aberto.
+
+Exemplo: 
+    No começo do arquivo main.m existe o determinado codigo.
+    
+        #import <Foundation/Foundation.h>
+        #import "Pessoas.h"
+
+        int main4(int argc, const char * argv[])
+        { ...
+        
+        
+   Altere o escrito main4 por main. Provavelmente já terá outra classe com o escrito main, portanto passe essa classe main main5 e sucessivamente.     
+   
+   
+    Local que deve ser alterado: int main4(...

@@ -1,20 +1,17 @@
-//
-//  main.m
-//  _prjTreinamentoObjectiveC
-//
-//  Created by Fábio Nogueira de Almeida on 18/06/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+
 
 #import <Foundation/Foundation.h>
 // importando a classe, somente o .h
 #import "Fraction.h"
 
-int main(int argc, const char * argv[])
+int main2(int argc, const char * argv[])
 {
     // alocando espaço na memoria
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc]init];
  
+    //EXEMPLO USANDO A CLASSE FRACTION.H
+    
+    
     // criando o objeto Fraction, alocando na memoria e iniciando
     Fraction *objFraction1 = [[Fraction alloc]init];
     Fraction *objFraction2 = [[Fraction alloc]init];
@@ -38,9 +35,11 @@ int main(int argc, const char * argv[])
     //escrevendo no console
     NSLog(@"objeto 1 * objeto 2 = %.g",[objFraction1 toDouble]);
     
+    
     //Liberando memoria alocada para os objetos;
     [objFraction1 release];
     [objFraction2 release];
+    
     
     // matando o espaço da memoria aberto
     [pool drain];
