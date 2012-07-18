@@ -15,6 +15,9 @@
 		716B699D15B2538B00881BF4 /* Pessoas.m in Sources */ = {isa = PBXBuildFile; fileRef = 716B699C15B2538B00881BF4 /* Pessoas.m */; };
 		716B69A015B2592F00881BF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 716B699F15B2592F00881BF4 /* main.m */; };
 		71CD8B1615B386B2008DBC6B /* mainHeranca.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CD8B1515B386B2008DBC6B /* mainHeranca.m */; };
+		71CD8B1B15B628D2008DBC6B /* Numero.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CD8B1A15B628D2008DBC6B /* Numero.m */; };
+		71CD8B1F15B629FD008DBC6B /* Caracter.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CD8B1E15B629FD008DBC6B /* Caracter.m */; };
+		71CD8B2315B62B5C008DBC6B /* mainPolimorfismo.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CD8B2215B62B5C008DBC6B /* mainPolimorfismo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,17 +36,22 @@
 /* Begin PBXFileReference section */
 		7156AFEB158FD39100681DCB /* _prjTreinamentoObjectiveC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = _prjTreinamentoObjectiveC; sourceTree = BUILT_PRODUCTS_DIR; };
 		7156AFEF158FD39100681DCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		7156AFF2158FD39100681DCB /* main2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main2.m; sourceTree = "<group>"; };
+		7156AFF2158FD39100681DCB /* main2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main2.m; path = _prjTreinamentoObjectiveC/main2.m; sourceTree = "<group>"; };
 		7156AFF5158FD39100681DCB /* _prjTreinamentoObjectiveC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "_prjTreinamentoObjectiveC-Prefix.pch"; sourceTree = "<group>"; };
 		7156AFF6158FD39100681DCB /* _prjTreinamentoObjectiveC.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _prjTreinamentoObjectiveC.1; sourceTree = "<group>"; };
 		7156AFFD158FD3C200681DCB /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fraction.h; path = ../Fraction.h; sourceTree = "<group>"; };
 		7156AFFE158FD3C200681DCB /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fraction.m; path = ../Fraction.m; sourceTree = "<group>"; };
-		716B699515B24B7000881BF4 /* main3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main3.m; sourceTree = "<group>"; };
+		716B699515B24B7000881BF4 /* main3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main3.m; path = _prjTreinamentoObjectiveC/main3.m; sourceTree = "<group>"; };
 		716B699B15B2538B00881BF4 /* Pessoas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pessoas.h; sourceTree = "<group>"; };
 		716B699C15B2538B00881BF4 /* Pessoas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pessoas.m; sourceTree = "<group>"; };
-		716B699F15B2592F00881BF4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../main.m; sourceTree = "<group>"; };
-		71CD8B1515B386B2008DBC6B /* mainHeranca.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainHeranca.m; sourceTree = "<group>"; };
+		716B699F15B2592F00881BF4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71CD8B1515B386B2008DBC6B /* mainHeranca.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = mainHeranca.m; path = _prjTreinamentoObjectiveC/mainHeranca.m; sourceTree = "<group>"; };
 		71CD8B1715B38C04008DBC6B /* LEIA-ME */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LEIA-ME"; sourceTree = "<group>"; };
+		71CD8B1915B628D2008DBC6B /* Numero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Numero.h; path = _prjTreinamentoObjectiveC/Numero.h; sourceTree = "<group>"; };
+		71CD8B1A15B628D2008DBC6B /* Numero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Numero.m; path = _prjTreinamentoObjectiveC/Numero.m; sourceTree = "<group>"; };
+		71CD8B1D15B629FD008DBC6B /* Caracter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Caracter.h; sourceTree = "<group>"; };
+		71CD8B1E15B629FD008DBC6B /* Caracter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Caracter.m; sourceTree = "<group>"; };
+		71CD8B2215B62B5C008DBC6B /* mainPolimorfismo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainPolimorfismo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +69,9 @@
 		7156AFE0158FD39100681DCB = {
 			isa = PBXGroup;
 			children = (
+				71CD8B2015B62B41008DBC6B /* programas principais */,
 				71CD8B1715B38C04008DBC6B /* LEIA-ME */,
+				71CD8B1C15B629DA008DBC6B /* polimorfismo */,
 				7156AFF1158FD39100681DCB /* _prjTreinamentoObjectiveC */,
 				7156AFEE158FD39100681DCB /* Frameworks */,
 				7156AFEC158FD39100681DCB /* Products */,
@@ -88,9 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				7156B000158FD6CB00681DCB /* Classes */,
-				7156AFF2158FD39100681DCB /* main2.m */,
-				716B699F15B2592F00881BF4 /* main.m */,
-				716B699515B24B7000881BF4 /* main3.m */,
 				7156AFF6158FD39100681DCB /* _prjTreinamentoObjectiveC.1 */,
 				7156AFF4158FD39100681DCB /* Supporting Files */,
 			);
@@ -112,9 +119,31 @@
 				7156AFFE158FD3C200681DCB /* Fraction.m */,
 				716B699B15B2538B00881BF4 /* Pessoas.h */,
 				716B699C15B2538B00881BF4 /* Pessoas.m */,
-				71CD8B1515B386B2008DBC6B /* mainHeranca.m */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		71CD8B1C15B629DA008DBC6B /* polimorfismo */ = {
+			isa = PBXGroup;
+			children = (
+				71CD8B1915B628D2008DBC6B /* Numero.h */,
+				71CD8B1A15B628D2008DBC6B /* Numero.m */,
+				71CD8B1D15B629FD008DBC6B /* Caracter.h */,
+				71CD8B1E15B629FD008DBC6B /* Caracter.m */,
+			);
+			name = polimorfismo;
+			sourceTree = "<group>";
+		};
+		71CD8B2015B62B41008DBC6B /* programas principais */ = {
+			isa = PBXGroup;
+			children = (
+				71CD8B1515B386B2008DBC6B /* mainHeranca.m */,
+				7156AFF2158FD39100681DCB /* main2.m */,
+				716B699F15B2592F00881BF4 /* main.m */,
+				716B699515B24B7000881BF4 /* main3.m */,
+				71CD8B2215B62B5C008DBC6B /* mainPolimorfismo.m */,
+			);
+			name = "programas principais";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +202,9 @@
 				716B699D15B2538B00881BF4 /* Pessoas.m in Sources */,
 				716B69A015B2592F00881BF4 /* main.m in Sources */,
 				71CD8B1615B386B2008DBC6B /* mainHeranca.m in Sources */,
+				71CD8B1B15B628D2008DBC6B /* Numero.m in Sources */,
+				71CD8B1F15B629FD008DBC6B /* Caracter.m in Sources */,
+				71CD8B2315B62B5C008DBC6B /* mainPolimorfismo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

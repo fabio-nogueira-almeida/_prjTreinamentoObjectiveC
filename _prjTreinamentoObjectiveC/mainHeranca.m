@@ -58,7 +58,7 @@
 
 
 
-int main(int argc, const char * argv[])
+int main5(int argc, const char * argv[])
 {
     // alocando espaço na memoria
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc]init];
