@@ -18,6 +18,10 @@
 		71CD8B1B15B628D2008DBC6B /* Numero.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CD8B1A15B628D2008DBC6B /* Numero.m */; };
 		71CD8B1F15B629FD008DBC6B /* Caracter.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CD8B1E15B629FD008DBC6B /* Caracter.m */; };
 		71CD8B2315B62B5C008DBC6B /* mainPolimorfismo.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CD8B2215B62B5C008DBC6B /* mainPolimorfismo.m */; };
+		71CD8B2A15B785B2008DBC6B /* Variaveis.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CD8B2915B785B2008DBC6B /* Variaveis.m */; };
+		71CD8B2F15B785DB008DBC6B /* mainGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CD8B2E15B785DB008DBC6B /* mainGlobal.m */; };
+		71CD8B3615B793EF008DBC6B /* category.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CD8B3515B793EE008DBC6B /* category.m */; };
+		71CD8B3A15B7958A008DBC6B /* define.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CD8B3915B7958A008DBC6B /* define.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,6 +56,12 @@
 		71CD8B1D15B629FD008DBC6B /* Caracter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Caracter.h; sourceTree = "<group>"; };
 		71CD8B1E15B629FD008DBC6B /* Caracter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Caracter.m; sourceTree = "<group>"; };
 		71CD8B2215B62B5C008DBC6B /* mainPolimorfismo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainPolimorfismo.m; sourceTree = "<group>"; };
+		71CD8B2815B785B2008DBC6B /* Variaveis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Variaveis.h; sourceTree = "<group>"; };
+		71CD8B2915B785B2008DBC6B /* Variaveis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Variaveis.m; sourceTree = "<group>"; };
+		71CD8B2E15B785DB008DBC6B /* mainGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainGlobal.m; sourceTree = "<group>"; };
+		71CD8B3415B793EE008DBC6B /* category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = category.h; sourceTree = "<group>"; };
+		71CD8B3515B793EE008DBC6B /* category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = category.m; sourceTree = "<group>"; };
+		71CD8B3915B7958A008DBC6B /* define.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = define.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +79,8 @@
 		7156AFE0158FD39100681DCB = {
 			isa = PBXGroup;
 			children = (
+				71CD8B3715B7957B008DBC6B /* define */,
+				71CD8B2C15B785BA008DBC6B /* VariavelGlobal */,
 				71CD8B2015B62B41008DBC6B /* programas principais */,
 				71CD8B1715B38C04008DBC6B /* LEIA-ME */,
 				71CD8B1C15B629DA008DBC6B /* polimorfismo */,
@@ -146,6 +158,26 @@
 			name = "programas principais";
 			sourceTree = "<group>";
 		};
+		71CD8B2C15B785BA008DBC6B /* VariavelGlobal */ = {
+			isa = PBXGroup;
+			children = (
+				71CD8B2915B785B2008DBC6B /* Variaveis.m */,
+				71CD8B3415B793EE008DBC6B /* category.h */,
+				71CD8B3515B793EE008DBC6B /* category.m */,
+				71CD8B2815B785B2008DBC6B /* Variaveis.h */,
+				71CD8B2E15B785DB008DBC6B /* mainGlobal.m */,
+			);
+			name = VariavelGlobal;
+			sourceTree = "<group>";
+		};
+		71CD8B3715B7957B008DBC6B /* define */ = {
+			isa = PBXGroup;
+			children = (
+				71CD8B3915B7958A008DBC6B /* define.m */,
+			);
+			name = define;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -205,6 +237,10 @@
 				71CD8B1B15B628D2008DBC6B /* Numero.m in Sources */,
 				71CD8B1F15B629FD008DBC6B /* Caracter.m in Sources */,
 				71CD8B2315B62B5C008DBC6B /* mainPolimorfismo.m in Sources */,
+				71CD8B2A15B785B2008DBC6B /* Variaveis.m in Sources */,
+				71CD8B2F15B785DB008DBC6B /* mainGlobal.m in Sources */,
+				71CD8B3615B793EF008DBC6B /* category.m in Sources */,
+				71CD8B3A15B7958A008DBC6B /* define.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

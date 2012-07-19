@@ -3,7 +3,7 @@
 #import "Numero.h"
 #import "Caracter.h"
 
-int main(int argc, const char * argv[])
+int mainPoli(int argc, const char * argv[])
 {
     // alocando espaço na memoria
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc]init];
