@@ -32,7 +32,7 @@ int main(int argc, const char * argv[])
     
     
     
-    //exemplo de sub string
+    //EXEMPLO de sub string
     
     variavelStringTeste = [variavelString substringToIndex:10]; // vai pegar até o caracter 10
     
@@ -51,7 +51,7 @@ int main(int argc, const char * argv[])
     
     
     
-    //exemplo range
+    //EXEMPLO range
     
     NSString * variavelRange = @"Testando a palavra, conceito e funcao range";
     
@@ -71,7 +71,7 @@ int main(int argc, const char * argv[])
     
     
     
-    //exemplo NSNumber
+    //EXEMPLO NSNumber
     
     //criando objeto númerico
     //NSNUMBER é um objeto que recebe qualquer valor númerico. Ele recebe inteiro, floate, double.
@@ -86,7 +86,9 @@ int main(int argc, const char * argv[])
     
     
     
-    // exemplo de NSMutableString
+    // EXEMPLO de NSMutableString
+    
+    
     NSString * variavelMutable = @"Testando variavel NSMutable";
     NSMutableString * objNSMutable;
     
@@ -127,6 +129,105 @@ int main(int argc, const char * argv[])
     NSLog(@"Apresentando c/ substituição2: %@", objNSMutable);    
 
 
+    
+    // EXEMPLO de vetor - array
+    
+    //criando e iniciando um array com valores de carro
+        // array começa com 0
+        // sempre devemos colocar o nil no final, para o obj-C conhecer que é um array
+    NSArray * carros = [NSArray arrayWithObjects:@"Astra", @"c3",@"Fusion",@"Scort",@"Corsa", nil];
+    
+        NSLog(@"Exemplo de array: %@",[carros objectAtIndex:1]);
+    
+  /*  for (int a=0; a<6; a++) {
+        NSLog(@"Posição %i, Carro: %@", a, [carros objectAtIndex:a]);
+    }
+   */ 
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    // EXEMPLO de vetor - NSMutableArray
+    
+    NSMutableArray * objMutableArray = [NSMutableArray arrayWithCapacity:20]; //caso o array passe desse limite, o proprio obj-c cria mais automaticamente. Não precisa se importar com o tamanho do array
+    
+    [objMutableArray addObject:[NSNumber numberWithInt:1]];
+    
+    //pegando apenas os números pares. Está contando 2 em 2
+    for (int i=0; i<=100; i+=2) {
+        [objMutableArray addObject:[NSNumber numberWithInt:i]];
+    };
+    
+    
+    //for para printar o resultado
+    
+    for (int b=0; b< [objMutableArray count]; b++) {
+        NSLog(@"Imprimindo valores do array: %li", [[objMutableArray objectAtIndex:b] integerValue]); //acionamos dois metodos do obj mutableArray / metodo objectAtIndex e IntergerValue (converteu o valor resultado do metodo objectAtIndex em integer)
+    };
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    //EXEMPLO Dicionary
+    
+    
+    
+    NSMutableDictionary * objDicionario = [NSMutableDictionary dictionary]; // inicia com um dicionario
+    
+    [objDicionario setObject:@"Macarrao" forKey:@"Comida"];
+    [objDicionario setObject:@"Ferrado" forKey:@"Carro"];
+    [objDicionario setObject:@"Naruto" forKey:@"Anime"];
+    
+    NSLog(@"Imprimindo o valor do dicionar: %@", [objDicionario objectForKey:@"Anime"]);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
