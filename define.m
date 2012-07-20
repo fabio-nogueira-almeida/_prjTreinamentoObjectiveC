@@ -12,7 +12,7 @@
 //se o valor que estiver como parametro (x), se esse numero divido por 2 for = 0, então é par
 #define PAR(x) x%2==0 
 
-int main(int argc, const char * argv[])
+int mainExemplo(int argc, const char * argv[])
 {
     // alocando espaço na memoria
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc]init];

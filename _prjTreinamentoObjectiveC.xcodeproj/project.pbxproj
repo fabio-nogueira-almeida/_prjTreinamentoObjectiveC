@@ -22,6 +22,7 @@
 		71CD8B2F15B785DB008DBC6B /* mainGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CD8B2E15B785DB008DBC6B /* mainGlobal.m */; };
 		71CD8B3615B793EF008DBC6B /* category.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CD8B3515B793EE008DBC6B /* category.m */; };
 		71CD8B3A15B7958A008DBC6B /* define.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CD8B3915B7958A008DBC6B /* define.m */; };
+		71CD8B3E15B8E93B008DBC6B /* mainExemplo.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CD8B3D15B8E93B008DBC6B /* mainExemplo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -62,6 +63,7 @@
 		71CD8B3415B793EE008DBC6B /* category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = category.h; sourceTree = "<group>"; };
 		71CD8B3515B793EE008DBC6B /* category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = category.m; sourceTree = "<group>"; };
 		71CD8B3915B7958A008DBC6B /* define.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = define.m; sourceTree = "<group>"; };
+		71CD8B3D15B8E93B008DBC6B /* mainExemplo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainExemplo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +81,9 @@
 		7156AFE0158FD39100681DCB = {
 			isa = PBXGroup;
 			children = (
+				71CD8B3B15B8E8D5008DBC6B /* NSSTRING, NSNUmber */,
 				71CD8B3715B7957B008DBC6B /* define */,
-				71CD8B2C15B785BA008DBC6B /* VariavelGlobal */,
+				71CD8B2C15B785BA008DBC6B /* VariavelGlobal, category, variavel estatica, variavel do seu tipo,  */,
 				71CD8B2015B62B41008DBC6B /* programas principais */,
 				71CD8B1715B38C04008DBC6B /* LEIA-ME */,
 				71CD8B1C15B629DA008DBC6B /* polimorfismo */,
@@ -158,7 +161,7 @@
 			name = "programas principais";
 			sourceTree = "<group>";
 		};
-		71CD8B2C15B785BA008DBC6B /* VariavelGlobal */ = {
+		71CD8B2C15B785BA008DBC6B /* VariavelGlobal, category, variavel estatica, variavel do seu tipo,  */ = {
 			isa = PBXGroup;
 			children = (
 				71CD8B2915B785B2008DBC6B /* Variaveis.m */,
@@ -167,7 +170,7 @@
 				71CD8B2815B785B2008DBC6B /* Variaveis.h */,
 				71CD8B2E15B785DB008DBC6B /* mainGlobal.m */,
 			);
-			name = VariavelGlobal;
+			name = "VariavelGlobal, category, variavel estatica, variavel do seu tipo, ";
 			sourceTree = "<group>";
 		};
 		71CD8B3715B7957B008DBC6B /* define */ = {
@@ -176,6 +179,14 @@
 				71CD8B3915B7958A008DBC6B /* define.m */,
 			);
 			name = define;
+			sourceTree = "<group>";
+		};
+		71CD8B3B15B8E8D5008DBC6B /* NSSTRING, NSNUmber */ = {
+			isa = PBXGroup;
+			children = (
+				71CD8B3D15B8E93B008DBC6B /* mainExemplo.m */,
+			);
+			name = "NSSTRING, NSNUmber";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +252,7 @@
 				71CD8B2F15B785DB008DBC6B /* mainGlobal.m in Sources */,
 				71CD8B3615B793EF008DBC6B /* category.m in Sources */,
 				71CD8B3A15B7958A008DBC6B /* define.m in Sources */,
+				71CD8B3E15B8E93B008DBC6B /* mainExemplo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
