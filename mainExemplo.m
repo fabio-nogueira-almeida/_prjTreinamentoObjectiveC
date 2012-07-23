@@ -214,8 +214,29 @@ int main(int argc, const char * argv[])
     
     
     
+    //EXEMPLO DE DIRETORIO DE ARQUIVO
     
+    NSString *objString = @"arquivoTeste2";
     
+    //criando o gerenciador do arquivo craido
+    NSFileManager *objGerenciador = [NSFileManager defaultManager];
+    
+    //verificando se existe o arquivo com o nome de "arquivoTeste"
+    if ([objGerenciador fileExistsAtPath:objString] == YES) {
+        NSLog(@"Arquivo encontrado");
+    }else {
+        NSLog(@"Arquivo não encontrado");
+    }
+    
+    //copiando o arquivo e criando um novo
+    if ([objGerenciador copyItemAtPath:objString toPath:@"nomeDoNovoArquivo" error:nil] == NO)  {
+        NSLog(@"Nao é possivel copiar o aruqivo");
+    }
+    
+    //movendo arquivo de lugar
+    if ([objGerenciador moveItemAtPath:objString toPath:@"nomeDoNovoArquivo2" error:nil] == NO) {
+        NSLog(@"Não é possivel mover o arquivo");
+    }
     
     
     
